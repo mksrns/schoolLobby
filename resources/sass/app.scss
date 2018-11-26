@@ -1,0 +1,30 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Admin LTE
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+//Include at least one of the below, depending on what icons you want.
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/v4-shims";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active{
+  background-color: rgb(45, 104, 192);
+  color: #fff !important;
+}
